@@ -1,0 +1,288 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.logo img {
+    height: 40px;
+    margin-right: 5px;
+    width: 42px;
+}
+
+nav {
+    margin-top: 0px;
+}
+
+nav p {
+    position: relative;
+    bottom: 10px;
+}
+
+.logo, .title {
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+
+main {
+    background-color: #e6e7eb;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cover {
+    width: 90%;
+    height: 670px;
+    border: 5px solid black;
+    display: flex;
+}
+
+.first { 
+    width: 50%;
+    height: 670px;
+    background-color: #ffff;
+}
+
+.first h1 {
+    display: flex;
+    justify-content:center;
+    margin-top: 120px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome{
+    font-size: 13px;
+    margin-left: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 7px;
+}
+
+.log-in {
+    width: 270px;
+    margin-left: 220px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.dash, .or {
+    display:inline ;
+
+}
+
+.or {
+    position:relative;
+    top:6px
+}
+
+.dashes {
+    margin-left: 220px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 100;
+}
+
+.email input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 285px;
+    font-weight: 100;
+    padding-bottom:10px;
+    border-bottom: 1px solid grey;
+}
+
+.email {
+    margin-left: 220px;
+    margin-top: 22px;
+}
+
+.password {
+    margin-left: 220px;
+    margin-top: 15px;
+}
+
+.password input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 285px;
+    font-weight: 100;
+    padding-bottom:10px;
+    border-bottom: 1px solid grey;
+}
+
+.check {
+    margin-top: 13px;
+    margin-left: 220px;
+}
+
+.check span {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    bottom: 2px;
+}
+
+input, label, p {
+    display: inline;
+}
+
+.check p {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+button {
+    background-color:black;
+    color: white;
+    margin-left: 220px;
+    width: 285px;
+    margin-top: 25px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-up {
+    margin-left: 233px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-up span {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.image {
+    width: 50%;
+    height: 670px;
+    background: url(womannnn.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mirror {
+    width: 100px;
+    height:120px;
+    margin-top: 200px;
+}
+
+.note {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    display:flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.note p {
+    margin-top: 0;
+}
+
+.sophie {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:29px;
+    margin-left: 77px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.sophie, .starsss{
+    display:inline;
+    margin-top: 0px;
+}
+
+.star { 
+    color: white;
+    font-size: 20px;
+}
+
+.starsss {
+    margin-left: 300px;
+}
+
+
+.founder  {
+    margin-top: 20px;
+    margin-left: 77px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.agency {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+i {
+    color:white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 0px
+}
+
+.footer, .direction {
+    display: inline-block;
+}
+
+.direction {
+    margin-left: 320px;
+    margin-top: 0;
+    margin-bottom: px;
+}
+
+.log-in img{
+    height: 30px;
+    margin: 5px;
+
+}
+
+.log-in {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 33px
+}
+
