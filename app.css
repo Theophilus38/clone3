@@ -292,7 +292,7 @@ i {
     height: 33px
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
     .div-cover {
         width: 90%;
         height: 70vh;
@@ -534,7 +534,7 @@ i {
     }
 }
 
-@media (min-width:576px) {
+@media (max-width:576px) {
     .div-cover {
         width: 90%;
         height: 65vh;
