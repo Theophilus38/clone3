@@ -266,7 +266,7 @@ i {
     font-size: 10px;
     margin-right: 20px;
     margin-bottom: 50px;
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 .footer, .direction {
@@ -281,7 +281,7 @@ i {
 
 .log-in img{
     height: 30px;
-    margin: 5px;
+    margin: 6px;
 
 }
 
@@ -292,7 +292,7 @@ i {
     height: 33px
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
     .div-cover {
         width: 90%;
         height: 70vh;
@@ -573,14 +573,14 @@ i {
     
     .welcome{
         font-size: 7px;
-        margin-left: 65px;
+        margin-left: 50px;
         margin-bottom: 14px;
         margin-top: 4px;
     }
     
     .log-in {
         width: 150px;
-        margin-left: 65px;
+        margin-left: 50px;
         border: 1px solid grey;
         border-radius: 3px;
         margin-top: 15px;
@@ -600,7 +600,7 @@ i {
     }
     
     .dashes {
-        margin-left: 65px;
+        margin-left: 50px;
         margin-top: 5px;
         color: gray;
         font-weight: 100;
@@ -610,19 +610,19 @@ i {
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        width: 150px;
+        width: 120px;
         font-weight: 100;
         padding-bottom:5px;
         border-bottom: 1px solid grey;
     }
     
     .email {
-        margin-left: 65px;
+        margin-left: 50px;
         margin-top: 12px;
     }
     
     .password {
-        margin-left: 65px;
+        margin-left: 50px;
         margin-top: 7px;
     }
     
@@ -630,7 +630,7 @@ i {
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        width: 150px;
+        width: 120px;
         font-weight: 100;
         padding-bottom:5px;
         border-bottom: 1px solid grey;
@@ -638,7 +638,7 @@ i {
     
     .check {
         margin-top: 7px;
-        margin-left: 65px;
+        margin-left: 50px;
     }
     
     .check span {
@@ -659,16 +659,16 @@ i {
         background-color:black;
         color: white;
         margin-left: 65px;
-        width: 150px;
-        margin-top: 25px;
+        width: 120px;
+        margin-top: 17px;
         height: 25px;
         border-radius: 4px;
     }
     
     .sign-up {
         margin-left: 70px;
-        margin-top: 18px;
-        font-size: 8px;
+        margin-top: 14px;
+        font-size: 6px;
     }
     
     .sign-up span {
@@ -685,13 +685,13 @@ i {
     }
     
     .mirror {
-        width: 120px;
+        width: 100px;
         height: 70px;
-        margin-top: 180px;
+        margin-top: 150px;
     }
     
     .note {
-        font-size: 13px;
+        font-size: 10px;
         font-weight: 500;
     }
     
@@ -701,7 +701,7 @@ i {
     
     .sophie {
         font-size:12px;
-        margin-left: 20px;
+        margin-left: 27px;
         margin-bottom: 0px;
         font-weight: 600;
     }
@@ -716,7 +716,7 @@ i {
     }
     
     .starsss {
-        margin-left: 180px;
+        margin-left: 150px;
         margin-top: 20px;
         position: relative;
         margin-bottom: 20px;
@@ -725,13 +725,13 @@ i {
     
     .founder  {
         margin-top: 8px;
-        margin-left: 20px;
+        margin-left: 27px;
         font-weight: 600;
         font-size: 12px;
     }
     
     .agency {
-        margin-left: 10px;
+        margin-left: 14px;
         font-size: 9px;
         font-weight: 400;
         margin-top: 8px;
@@ -741,7 +741,7 @@ i {
         color:white;
         border: 1px solid white;
         border-radius: 50%;
-        padding: 7px;
+        padding: 5px;
         font-size: 5px;
         margin-right: 7px;
         margin-bottom: 50px;
@@ -753,7 +753,7 @@ i {
     }
     
     .direction {
-        margin-left: 180px;
+        margin-left: 150px;
         margin-top: 0;
         position: relative;
         bottom: 35px;
