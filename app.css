@@ -534,7 +534,7 @@ i {
     }
 }
 
-@media (max-width:576px) {
+@media (min-width:576px) {
     .div-cover {
         width: 90%;
         height: 65vh;
