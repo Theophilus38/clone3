@@ -80,10 +80,17 @@ main {
     font-weight: 600;
 }
 
+.dash {
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+    width: 250px;
+    height: 150px;
+    color:white;
+    font-size: 15px
+}
 
 .dash, .or {
     display:inline ;
-
 }
 
 .or {
@@ -285,3 +292,483 @@ i {
     height: 33px
 }
 
+@media (max-width:768px) {
+    .div-cover {
+        width: 90%;
+        height: 70vh;
+    }
+
+    .first {
+        width: 50%;
+        height: 70vh;
+    }
+
+    .image {
+        width: 50%;
+        height: 70vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo img {
+        height: 22px;
+        margin-right: 2px;
+        width: 20px;
+    }
+
+    nav p {
+        font-size: 7px;
+    }
+    
+    .first h1 {
+        font-size: 15px;
+        margin-top: 67px;
+        margin-bottom: 3px;
+    }
+    
+    .welcome{
+        font-size: 7px;
+        margin-left: 90px;
+        margin-bottom: 14px;
+        margin-top: 4px;
+    }
+    
+    .log-in {
+        width: 200px;
+        margin-left: 90px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        margin-top: 15px;
+    }
+    
+    .google {
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+    
+    .dash {
+        font-size: 10.5px;
+    }
+
+    .dash {
+        width: 10px;
+    }
+    
+    .dashes {
+        margin-left: 90px;
+        margin-top: 5px;
+        color: gray;
+        font-weight: 100;
+    }
+    
+    .email input {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 200px;
+        font-weight: 100;
+        padding-bottom:5px;
+        border-bottom: 1px solid grey;
+    }
+    
+    .email {
+        margin-left: 90px;
+        margin-top: 12px;
+    }
+    
+    .password {
+        margin-left: 90px;
+        margin-top: 7px;
+    }
+    
+    .password input {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 200px;
+        font-weight: 100;
+        padding-bottom:5px;
+        border-bottom: 1px solid grey;
+    }
+    
+    .check {
+        margin-top: 7px;
+        margin-left: 90px;
+    }
+    
+    .check span {
+        font-size: 8px;
+        font-weight: 800;
+        position:relative;
+        bottom: 2px;
+    }
+    
+    .check p {
+        font-size: 8px;
+        font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+    
+    button {
+        background-color:black;
+        color: white;
+        margin-left: 90px;
+        width: 200px;
+        margin-top: 25px;
+        height: 35px;
+        border-radius: 8px;
+    }
+    
+    .sign-up {
+        margin-left: 85px;
+        margin-top: 25px;
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sign-up span {
+        margin-left: 5px;
+        font-weight: 600;
+    }
+    
+    
+    .image {
+        width: 50%;
+        height: 70vh;
+        background: url(womannnn.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .mirror {
+        width: 160px;
+        height: 70px;
+        margin-top: 190px;
+    }
+    
+    .note {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .note p {
+        margin-top: 0;
+    }
+    
+    .sophie {
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:20px;
+        margin-left: 32px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+    
+    .sophie, .starsss{
+        display:inline;
+        margin-top: 0px;
+    }
+    
+    .star { 
+        font-size: 10px;
+    }
+    
+    .starsss {
+        margin-left: 250px;
+        margin-top: 20px;
+        position: relative;
+        bottom: 20px
+    }
+    
+    
+    .founder  {
+        margin-top: 10px;
+        margin-left: 32px;
+        font-weight: 600;
+    }
+    
+    .agency {
+        margin-left: 17px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+    
+    i {
+        color:white;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 7px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-top: 0px
+    }
+    
+    .footer, .direction {
+        display: inline-block;
+    }
+    
+    .direction {
+        margin-left: 233px;
+        margin-top: 0;
+        position: relative;
+        bottom: 35px;
+    }
+    
+    .log-in img{
+        height: 30px;
+        margin: 5px;
+    
+    }
+    
+    .log-in {
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 33px
+    }
+}
+
+@media (max-width:576px) {
+    .div-cover {
+        width: 90%;
+        height: 65vh;
+    }
+
+    .first {
+        width: 50%;
+        height: 65vh;
+    }
+
+    .image {
+        width: 50%;
+        height: 65vh;
+    }
+
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo img {
+        height: 22px;
+        margin-right: 2px;
+        width: 20px;
+    }
+
+    nav p {
+        font-size: 5px;
+    }
+    
+    .first h1 {
+        font-size: 11px;
+        margin-top: 67px;
+        margin-bottom: 3px;
+    }
+    
+    .welcome{
+        font-size: 7px;
+        margin-left: 65px;
+        margin-bottom: 14px;
+        margin-top: 4px;
+    }
+    
+    .log-in {
+        width: 150px;
+        margin-left: 65px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        margin-top: 15px;
+    }
+    
+    .google {
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+    
+    .dash {
+        font-size: 7px;
+    }
+
+    .dash {
+        width: 10px;
+    }
+    
+    .dashes {
+        margin-left: 65px;
+        margin-top: 5px;
+        color: gray;
+        font-weight: 100;
+    }
+    
+    .email input {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 150px;
+        font-weight: 100;
+        padding-bottom:5px;
+        border-bottom: 1px solid grey;
+    }
+    
+    .email {
+        margin-left: 65px;
+        margin-top: 12px;
+    }
+    
+    .password {
+        margin-left: 65px;
+        margin-top: 7px;
+    }
+    
+    .password input {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        width: 150px;
+        font-weight: 100;
+        padding-bottom:5px;
+        border-bottom: 1px solid grey;
+    }
+    
+    .check {
+        margin-top: 7px;
+        margin-left: 65px;
+    }
+    
+    .check span {
+        font-size: 6px;
+        font-weight: 800;
+        position:relative;
+        bottom: 2px;
+    }
+    
+    .check p {
+        font-size: 6px;
+        font-weight: 800;
+        margin-left: 4px;
+        text-decoration: underline;
+    }
+    
+    button {
+        background-color:black;
+        color: white;
+        margin-left: 65px;
+        width: 150px;
+        margin-top: 25px;
+        height: 25px;
+        border-radius: 4px;
+    }
+    
+    .sign-up {
+        margin-left: 70px;
+        margin-top: 18px;
+        font-size: 8px;
+    }
+    
+    .sign-up span {
+        margin-left: 5px;
+        font-weight: 600;
+    }
+    
+    
+    .image {
+        width: 50%;
+        height: 65vh;
+        background: url(womannnn.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .mirror {
+        width: 120px;
+        height: 70px;
+        margin-top: 180px;
+    }
+    
+    .note {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .note p {
+        margin-top: 0;
+    }
+    
+    .sophie {
+        font-size:12px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+    
+    .sophie, .starsss{
+        display:inline;
+        margin-top: 20px;
+    }
+    
+    .star { 
+        font-size: 9px;
+    }
+    
+    .starsss {
+        margin-left: 180px;
+        margin-top: 20px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    
+    .founder  {
+        margin-top: 8px;
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    .agency {
+        margin-left: 10px;
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+    
+    i {
+        color:white;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 7px;
+        font-size: 5px;
+        margin-right: 7px;
+        margin-bottom: 50px;
+        margin-top: 0px
+    }
+    
+    .footer, .direction {
+        display: inline-block;
+    }
+    
+    .direction {
+        margin-left: 180px;
+        margin-top: 0;
+        position: relative;
+        bottom: 35px;
+    }
+    
+    .log-in img{
+        height: 30px;
+        margin: 5px;
+    
+    }
+    
+    .log-in {
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        height: 33px
+    }
+}
