@@ -130,6 +130,7 @@ main {
     border-bottom: 1px solid gray;
     margin-top: 0px;
     padding: 0;
+    outline: none;
 }
 
 .remember {
